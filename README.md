@@ -4,6 +4,7 @@ This repository is a shared index for the mobile development cohort. Each cohort
 
 ## Projects
 
-| Project                          | Description                            |
-| -------------------------------- | -------------------------------------- |
-| [sign-in-screen](sign-in-screen) | Expo app for a sign-in screen project. |
+| Project                                | Description                                                         |
+| -------------------------------------- | ------------------------------------------------------------------- |
+| [sign-in-screen](sign-in-screen)       | Expo app for a sign-in screen project.                              |
+| [notes-app-screens](notes-app-screens) | Expo app showcasing notes list, add note, and note details screens. |
