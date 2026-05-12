@@ -4,10 +4,10 @@ React Native (Expo + TypeScript) project for a notes app UI flow.
 
 ## Preview Video
 
-<video src="./assets/preview/preview.webm" controls width="360"></video>
+<video src="./assets/preview/preview.mp4" controls width="360"></video>
 
 If your Markdown viewer does not render embedded video, open it directly:
-[Watch preview video](./assets/preview/preview.webm)
+[Watch preview video](./assets/preview/preview.mp4)
 
 ## Preview Images
 
