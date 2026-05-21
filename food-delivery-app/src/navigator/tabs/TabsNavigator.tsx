@@ -3,7 +3,7 @@ import Icon from "react-native-remix-icon";
 import HomeScreen from "../../screens/HomeScreen";
 import SearchScreen from "../../screens/SearchScreen";
 import OrdersScreen from "../../screens/OrdersScreen";
-import ProfileScreen from "../../screens/ProfileScreen";
+import ProfileDrawerNavigator from "../drawer/ProfileDrawerNavigator";
 import { useOrders } from "../../context/OrdersContext";
 
 const Tab = createBottomTabNavigator();
@@ -79,7 +79,7 @@ export default function TabsNavigator() {
             />
             <Tab.Screen
                 name="Profile"
-                component={ProfileScreen}
+                component={ProfileDrawerNavigator}
                 options={{
                     tabBarIcon: ({ focused, color, size }) => (
                         <Icon

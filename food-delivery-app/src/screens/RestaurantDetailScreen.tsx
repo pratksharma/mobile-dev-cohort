@@ -48,7 +48,7 @@ const RestaurantDetailScreen = () => {
                     </Text>
                     <View style={styles.dishFooter}>
                         <Text style={styles.price}>
-                            ${item.price.toFixed(2)}
+                            ₹{item.price.toFixed(0)}
                         </Text>
                         <Pressable
                             style={[

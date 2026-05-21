@@ -30,6 +30,7 @@ type Dish = {
 type OrdersContextValue = {
     orders: Order[];
     addOrder: (restaurantName: string, dish: Dish) => void;
+    clearOrders: () => void;
 };
 
 const OrdersContext = createContext<OrdersContextValue | undefined>(undefined);
@@ -52,7 +53,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
                 restaurant: restaurantName,
                 status: "Pending",
                 eta: "--",
-                total: `$${dish.price.toFixed(2)}`,
+                total: `₹${dish.price.toFixed(0)}`,
                 image: dish.image,
                 dishId: dish.id,
                 dishName: dish.name,
@@ -63,10 +64,15 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
         });
     };
 
+    const clearOrders = () => {
+        setOrders([]);
+    };
+
     const value = useMemo(
         () => ({
             orders,
             addOrder,
+            clearOrders,
         }),
         [orders],
     );

@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon from "react-native-remix-icon";
 import { user } from "../constants/user";
@@ -12,16 +13,31 @@ const profileActions = [
 ];
 
 export default function ProfileScreen() {
+    const navigation = useNavigation<any>();
     const displayName = user.name || "Foodie User";
     const displayEmail = user.email || "hello@foodie.app";
 
     return (
         <SafeAreaView style={styles.container}>
-            <View style={styles.header}>
-                <Text style={styles.title}>Profile</Text>
-                <Text style={styles.subtitle}>
-                    Manage your account and delivery preferences.
-                </Text>
+            <View style={styles.headerRow}>
+                <View style={styles.headerText}>
+                    <Text style={styles.title}>Profile</Text>
+                    <Text style={styles.subtitle}>
+                        Manage your account and delivery preferences.
+                    </Text>
+                </View>
+
+                <Pressable
+                    style={styles.menuButton}
+                    onPress={() => navigation.openDrawer()}
+                >
+                    <Icon
+                        name="menu-3-line"
+                        size={24}
+                        color="#111111"
+                        fallback={null}
+                    />
+                </Pressable>
             </View>
 
             <View style={styles.profileCard}>
@@ -65,8 +81,25 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         paddingTop: 12,
     },
-    header: {
+    headerRow: {
+        flexDirection: "row",
+        alignItems: "center",
+        gap: 12,
         marginBottom: 18,
+    },
+    menuButton: {
+        width: 44,
+        height: 44,
+        borderRadius: 14,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#ffffff",
+        borderWidth: 1,
+        borderColor: "#ece9e2",
+    },
+    headerText: {
+        flex: 1,
+        paddingRight: 4,
     },
     title: {
         fontSize: 30,
@@ -85,31 +118,34 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: "#ece9e2",
         borderRadius: 20,
-        padding: 16,
-        flexDirection: "row",
+        paddingVertical: 20,
+        paddingHorizontal: 16,
+        flexDirection: "column",
         alignItems: "center",
-        gap: 14,
+        gap: 12,
         marginBottom: 18,
     },
     avatar: {
-        width: 56,
-        height: 56,
-        borderRadius: 18,
+        width: 92,
+        height: 92,
+        borderRadius: 46,
         resizeMode: "cover",
     },
     profileText: {
-        flex: 1,
+        alignItems: "center",
     },
     name: {
         color: "#111111",
-        fontSize: 17,
+        fontSize: 18,
         fontFamily: "DMSans-SemiBold",
+        textAlign: "center",
     },
     email: {
         marginTop: 3,
         color: "#7a7a7a",
         fontSize: 13,
         fontFamily: "DMSans-Regular",
+        textAlign: "center",
     },
     actionList: {
         backgroundColor: "#ffffff",

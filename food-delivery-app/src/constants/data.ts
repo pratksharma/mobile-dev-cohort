@@ -14,7 +14,7 @@ export const restaurants = [
                 name: "Kung Pao Chicken",
                 description:
                     "Tender chicken with peanuts, vegetables, and our signature spicy sauce",
-                price: 12.99,
+                price: 120,
                 image: "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg",
             },
             {
@@ -22,7 +22,7 @@ export const restaurants = [
                 name: "Fried Rice",
                 description:
                     "Fragrant jasmine rice with eggs, vegetables, and your choice of protein",
-                price: 10.99,
+                price: 100,
                 image: "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg",
             },
             {
@@ -30,7 +30,7 @@ export const restaurants = [
                 name: "Spring Rolls",
                 description:
                     "Crispy vegetable spring rolls served with sweet chili sauce",
-                price: 7.99,
+                price: 70,
                 image: "https://images.pexels.com/photos/6646035/pexels-photo-6646035.jpeg",
             },
             {
@@ -38,7 +38,7 @@ export const restaurants = [
                 name: "Mapo Tofu",
                 description:
                     "Silky tofu in a fiery, numbing Sichuan sauce with ground pork",
-                price: 11.99,
+                price: 110,
                 image: "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg",
             },
         ],
@@ -58,7 +58,7 @@ export const restaurants = [
                 name: "Butter Chicken",
                 description:
                     "Tender chicken in a creamy tomato-based sauce with aromatic spices",
-                price: 13.99,
+                price: 130,
                 image: "https://images.pexels.com/photos/20408432/pexels-photo-20408432.jpeg",
             },
             {
@@ -66,7 +66,7 @@ export const restaurants = [
                 name: "Paneer Tikka Masala",
                 description:
                     "Soft paneer cheese in a rich and creamy tomato gravy with Indian spices",
-                price: 12.99,
+                price: 120,
                 image: "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg",
             },
             {
@@ -74,7 +74,7 @@ export const restaurants = [
                 name: "Biryani",
                 description:
                     "Fragrant basmati rice cooked with meat and traditional biryani spices",
-                price: 14.99,
+                price: 140,
                 image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg",
             },
             {
@@ -82,7 +82,7 @@ export const restaurants = [
                 name: "Naan Bread",
                 description:
                     "Soft and fluffy traditional Indian bread baked in a tandoor oven",
-                price: 3.99,
+                price: 40,
                 image: "https://images.pexels.com/photos/9797029/pexels-photo-9797029.jpeg",
             },
         ],
@@ -102,7 +102,7 @@ export const restaurants = [
                 name: "Spaghetti Carbonara",
                 description:
                     "Classic Roman pasta with eggs, guanciale, Pecorino Romano, and black pepper",
-                price: 12.99,
+                price: 120,
                 image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
             },
             {
@@ -110,7 +110,7 @@ export const restaurants = [
                 name: "Margherita Pizza",
                 description:
                     "Fresh mozzarella, basil, and tomato sauce on a crispy thin crust",
-                price: 11.99,
+                price: 110,
                 image: "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg",
             },
             {
@@ -118,7 +118,7 @@ export const restaurants = [
                 name: "Risotto Al Funghi",
                 description:
                     "Creamy arborio rice with wild mushrooms and Parmesan cheese",
-                price: 13.99,
+                price: 130,
                 image: "https://images.pexels.com/photos/5639411/pexels-photo-5639411.jpeg",
             },
             {
@@ -126,7 +126,7 @@ export const restaurants = [
                 name: "Tiramisu",
                 description:
                     "Classic Italian dessert with mascarpone, espresso, and cocoa powder",
-                price: 5.99,
+                price: 60,
                 image: "https://images.pexels.com/photos/6880219/pexels-photo-6880219.jpeg",
             },
         ],
@@ -146,7 +146,7 @@ export const restaurants = [
                 name: "Chicken Tacos",
                 description:
                     "Grilled chicken with cilantro, onion, and lime in soft corn tortillas",
-                price: 9.99,
+                price: 90,
                 image: "https://images.pexels.com/photos/4958792/pexels-photo-4958792.jpeg",
             },
             {
@@ -154,7 +154,7 @@ export const restaurants = [
                 name: "Burrito Supreme",
                 description:
                     "Filled with seasoned beef, beans, rice, cheese, and all the fixings",
-                price: 11.99,
+                price: 110,
                 image: "https://images.pexels.com/photos/5737247/pexels-photo-5737247.jpeg",
             },
             {
@@ -162,7 +162,7 @@ export const restaurants = [
                 name: "Churros",
                 description:
                     "Crispy fried pastry sticks dusted with cinnamon sugar and served with chocolate sauce",
-                price: 4.99,
+                price: 50,
                 image: "https://images.pexels.com/photos/9501468/pexels-photo-9501468.jpeg",
             },
             {
@@ -170,7 +170,7 @@ export const restaurants = [
                 name: "Quesadilla",
                 description:
                     "Grilled tortilla filled with melted cheese, vegetables, and your choice of meat",
-                price: 10.99,
+                price: 100,
                 image: "https://images.pexels.com/photos/5848501/pexels-photo-5848501.jpeg",
             },
         ],
@@ -190,7 +190,7 @@ export const restaurants = [
                 name: "California Roll",
                 description:
                     "Avocado, cucumber, and imitation crab rolled in rice and nori",
-                price: 8.99,
+                price: 80,
                 image: "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg",
             },
             {
@@ -198,7 +198,7 @@ export const restaurants = [
                 name: "Spicy Tuna Roll",
                 description:
                     "Seared tuna with jalapeño, sriracha mayo, and avocado",
-                price: 10.99,
+                price: 100,
                 image: "https://images.pexels.com/photos/8951567/pexels-photo-8951567.jpeg",
             },
             {
@@ -206,7 +206,7 @@ export const restaurants = [
                 name: "Salmon Sashimi",
                 description:
                     "Fresh sliced salmon served with wasabi, pickled ginger, and soy sauce",
-                price: 12.99,
+                price: 120,
                 image: "https://images.pexels.com/photos/3296279/pexels-photo-3296279.jpeg",
             },
             {
@@ -214,7 +214,7 @@ export const restaurants = [
                 name: "Tempura Shrimp",
                 description:
                     "Lightly battered and fried shrimp served with dipping sauce",
-                price: 9.99,
+                price: 90,
                 image: "https://images.pexels.com/photos/8697537/pexels-photo-8697537.jpeg",
             },
         ],
@@ -234,7 +234,7 @@ export const restaurants = [
                 name: "Classic Cheeseburger",
                 description:
                     "Juicy beef patty with melted cheddar, lettuce, tomato, and special sauce",
-                price: 10.99,
+                price: 100,
                 image: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
             },
             {
@@ -242,7 +242,7 @@ export const restaurants = [
                 name: "Bacon Burger",
                 description:
                     "Double patty with crispy bacon, Swiss cheese, and caramelized onions",
-                price: 12.99,
+                price: 120,
                 image: "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
             },
             {
@@ -250,7 +250,7 @@ export const restaurants = [
                 name: "Crispy Fries",
                 description:
                     "Golden french fries with sea salt and your choice of seasoning",
-                price: 4.99,
+                price: 50,
                 image: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
             },
             {
@@ -258,7 +258,7 @@ export const restaurants = [
                 name: "Milkshake",
                 description:
                     "Creamy vanilla, chocolate, or strawberry shake with whipped cream",
-                price: 5.99,
+                price: 60,
                 image: "https://images.pexels.com/photos/6542784/pexels-photo-6542784.jpeg",
             },
         ],
@@ -269,17 +269,13 @@ export const initialOrders = [
     {
         id: 1,
         restaurant: "Marlow Kitchen",
-        status: "On the way",
-        eta: "12 min",
-        total: "$24.80",
+        total: "₹180",
         image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
     },
     {
         id: 2,
         restaurant: "Seoul Bite",
-        status: "Delivered",
-        eta: "Completed",
-        total: "$18.20",
+        total: "₹150",
         image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
     },
 ];

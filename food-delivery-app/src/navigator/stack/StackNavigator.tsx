@@ -2,8 +2,9 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import OnboardingScreen from "../../screens/OnboardingScreen";
 import RestaurantDetailScreen from "../../screens/RestaurantDetailScreen";
-import Cart from "../../screens/Cart";
+import CartScreen from "../../screens/Cart";
 import SignUpScreen from "../../screens/SignUpScreen";
+import OrderConfirmationScreen from "../../screens/OrderConfirmationScreen";
 import TabsNavigator from "../tabs/TabsNavigator";
 
 const Stack = createNativeStackNavigator();
@@ -21,7 +22,11 @@ function MyStack() {
                 name="RestaurantDetailScreen"
                 component={RestaurantDetailScreen}
             />
-            <Stack.Screen name="Cart" component={Cart} />
+            <Stack.Screen name="Cart" component={CartScreen} />
+            <Stack.Screen
+                name="OrderConfirmation"
+                component={OrderConfirmationScreen}
+            />
             <Stack.Screen name="Login" component={SignUpScreen} />
         </Stack.Navigator>
     );
