@@ -1,9 +1,11 @@
 import React from "react";
 import { FlatList, Image, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { orders } from "../constants/data";
+import { useOrders } from "../context/OrdersContext";
 
 export default function OrdersScreen() {
+    const { orders } = useOrders();
+
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.header}>

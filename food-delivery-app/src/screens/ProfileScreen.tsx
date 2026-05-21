@@ -1,7 +1,8 @@
 import React from "react";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { Image, Pressable, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon from "react-native-remix-icon";
+import { user } from "../constants/user";
 
 const profileActions = [
     { label: "Saved addresses", icon: "map-pin-2-line" },
@@ -11,6 +12,9 @@ const profileActions = [
 ];
 
 export default function ProfileScreen() {
+    const displayName = user.name || "Foodie User";
+    const displayEmail = user.email || "hello@foodie.app";
+
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.header}>
@@ -21,12 +25,10 @@ export default function ProfileScreen() {
             </View>
 
             <View style={styles.profileCard}>
-                <View style={styles.avatar}>
-                    <Text style={styles.avatarText}>FD</Text>
-                </View>
+                <Image source={user.profile} style={styles.avatar} />
                 <View style={styles.profileText}>
-                    <Text style={styles.name}>Foodie User</Text>
-                    <Text style={styles.email}>hello@foodie.app</Text>
+                    <Text style={styles.name}>{displayName}</Text>
+                    <Text style={styles.email}>{displayEmail}</Text>
                 </View>
             </View>
 
@@ -93,14 +95,7 @@ const styles = StyleSheet.create({
         width: 56,
         height: 56,
         borderRadius: 18,
-        backgroundColor: "#111111",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    avatarText: {
-        color: "#ffffff",
-        fontSize: 18,
-        fontFamily: "DMSans-Bold",
+        resizeMode: "cover",
     },
     profileText: {
         flex: 1,

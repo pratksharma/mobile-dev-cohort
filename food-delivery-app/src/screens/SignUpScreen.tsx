@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { user } from "../constants/user";
 
 const SignUpScreen: React.FC = () => {
     const navigation = useNavigation<any>();
@@ -19,7 +20,8 @@ const SignUpScreen: React.FC = () => {
     const [password, setPassword] = useState("");
 
     const handleSignUp = () => {
-        // Placeholder: implement real sign-up logic
+        user.name = name.trim();
+        user.email = email.trim().toLowerCase();
         navigation.navigate("MainTabs");
     };
 

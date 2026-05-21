@@ -4,11 +4,13 @@ import HomeScreen from "../../screens/HomeScreen";
 import SearchScreen from "../../screens/SearchScreen";
 import OrdersScreen from "../../screens/OrdersScreen";
 import ProfileScreen from "../../screens/ProfileScreen";
-import { orders } from "../../constants/data";
+import { useOrders } from "../../context/OrdersContext";
 
 const Tab = createBottomTabNavigator();
 
 export default function TabsNavigator() {
+    const { orders } = useOrders();
+
     return (
         <Tab.Navigator
             screenOptions={{
@@ -60,7 +62,7 @@ export default function TabsNavigator() {
                 name="Orders"
                 component={OrdersScreen}
                 options={{
-                    tabBarBadge: orders.length || undefined,
+                    tabBarBadge: orders.length ? orders.length : undefined,
                     tabBarIcon: ({ focused, color, size }) => (
                         <Icon
                             name={

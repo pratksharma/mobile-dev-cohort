@@ -8,13 +8,14 @@ import {
     FlatList,
     Pressable,
 } from "react-native";
-import React from "react";
+import { useOrders } from "../context/OrdersContext";
 import Icon from "react-native-remix-icon";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const RestaurantDetailScreen = () => {
     const navigation = useNavigation();
     const route = useRoute();
+    const { orders, addOrder } = useOrders();
 
     // @ts-ignore
     const { restaurant } = route.params || {};
@@ -27,31 +28,45 @@ const RestaurantDetailScreen = () => {
         );
     }
 
-    const renderDish = ({ item }: { item: any }) => (
-        <View style={styles.dishCard}>
-            <Image
-                source={{ uri: item.image }}
-                style={styles.dishImage}
-                resizeMode="cover"
-            />
-            <View style={styles.dishContent}>
-                <Text style={styles.dishName}>{item.name}</Text>
-                <Text
-                    style={styles.dishDescription}
-                    numberOfLines={2}
-                    ellipsizeMode="tail"
-                >
-                    {item.description}
-                </Text>
-                <View style={styles.dishFooter}>
-                    <Text style={styles.price}>${item.price.toFixed(2)}</Text>
-                    <Pressable style={styles.addButton}>
-                        <Text style={styles.addButtonText}>Add</Text>
-                    </Pressable>
+    const renderDish = ({ item }: { item: any }) => {
+        const disabled = orders.some((order) => order.dishId === item.id);
+        return (
+            <View style={styles.dishCard}>
+                <Image
+                    source={{ uri: item.image }}
+                    style={styles.dishImage}
+                    resizeMode="cover"
+                />
+                <View style={styles.dishContent}>
+                    <Text style={styles.dishName}>{item.name}</Text>
+                    <Text
+                        style={styles.dishDescription}
+                        numberOfLines={2}
+                        ellipsizeMode="tail"
+                    >
+                        {item.description}
+                    </Text>
+                    <View style={styles.dishFooter}>
+                        <Text style={styles.price}>
+                            ${item.price.toFixed(2)}
+                        </Text>
+                        <Pressable
+                            style={[
+                                styles.addButton,
+                                disabled && styles.addButtonDisabled,
+                            ]}
+                            onPress={() => addOrder(restaurant.name, item)}
+                            disabled={disabled}
+                        >
+                            <Text style={styles.addButtonText}>
+                                {disabled ? "Added" : "Add"}
+                            </Text>
+                        </Pressable>
+                    </View>
                 </View>
             </View>
-        </View>
-    );
+        );
+    };
 
     return (
         <SafeAreaView style={styles.container}>
@@ -234,6 +249,9 @@ const styles = StyleSheet.create({
         paddingHorizontal: 12,
         paddingVertical: 6,
         borderRadius: 8,
+    },
+    addButtonDisabled: {
+        backgroundColor: "#7a7a7a",
     },
     addButtonText: {
         color: "#fff",

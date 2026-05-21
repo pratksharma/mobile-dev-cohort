@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import StackNavigator from "./src/navigator/stack/StackNavigator";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
+import { OrdersProvider } from "./src/context/OrdersContext";
 
 export default function App() {
     const [loaded] = useFonts({
@@ -16,5 +17,9 @@ export default function App() {
             SplashScreen.hideAsync();
         }
     }, [loaded]);
-    return <StackNavigator />;
+    return (
+        <OrdersProvider>
+            <StackNavigator />
+        </OrdersProvider>
+    );
 }

@@ -7,8 +7,7 @@ export const restaurants = [
         rating: 4.5,
         description:
             "Authentic Chinese cuisine with a modern twist. Our chefs bring traditional recipes to your table.",
-        image:
-            "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg",
+        image: "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg",
         dishes: [
             {
                 id: 101,
@@ -16,8 +15,7 @@ export const restaurants = [
                 description:
                     "Tender chicken with peanuts, vegetables, and our signature spicy sauce",
                 price: 12.99,
-                image:
-                    "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg",
+                image: "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg",
             },
             {
                 id: 102,
@@ -25,8 +23,7 @@ export const restaurants = [
                 description:
                     "Fragrant jasmine rice with eggs, vegetables, and your choice of protein",
                 price: 10.99,
-                image:
-                    "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg",
+                image: "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg",
             },
             {
                 id: 103,
@@ -34,8 +31,7 @@ export const restaurants = [
                 description:
                     "Crispy vegetable spring rolls served with sweet chili sauce",
                 price: 7.99,
-                image:
-                    "https://images.pexels.com/photos/6646035/pexels-photo-6646035.jpeg",
+                image: "https://images.pexels.com/photos/6646035/pexels-photo-6646035.jpeg",
             },
             {
                 id: 104,
@@ -43,8 +39,7 @@ export const restaurants = [
                 description:
                     "Silky tofu in a fiery, numbing Sichuan sauce with ground pork",
                 price: 11.99,
-                image:
-                    "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg",
+                image: "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg",
             },
         ],
     },
@@ -56,8 +51,7 @@ export const restaurants = [
         rating: 4.7,
         description:
             "Experience the rich flavors of India with our carefully curated menu using authentic spices.",
-        image:
-            "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+        image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
         dishes: [
             {
                 id: 201,
@@ -65,8 +59,7 @@ export const restaurants = [
                 description:
                     "Tender chicken in a creamy tomato-based sauce with aromatic spices",
                 price: 13.99,
-                image:
-                    "https://images.pexels.com/photos/11115853/pexels-photo-11115853.jpeg",
+                image: "https://images.pexels.com/photos/20408432/pexels-photo-20408432.jpeg",
             },
             {
                 id: 202,
@@ -74,8 +67,7 @@ export const restaurants = [
                 description:
                     "Soft paneer cheese in a rich and creamy tomato gravy with Indian spices",
                 price: 12.99,
-                image:
-                    "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg",
+                image: "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg",
             },
             {
                 id: 203,
@@ -83,8 +75,7 @@ export const restaurants = [
                 description:
                     "Fragrant basmati rice cooked with meat and traditional biryani spices",
                 price: 14.99,
-                image:
-                    "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg",
+                image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg",
             },
             {
                 id: 204,
@@ -92,8 +83,7 @@ export const restaurants = [
                 description:
                     "Soft and fluffy traditional Indian bread baked in a tandoor oven",
                 price: 3.99,
-                image:
-                    "https://images.pexels.com/photos/9797029/pexels-photo-9797029.jpeg",
+                image: "https://images.pexels.com/photos/9797029/pexels-photo-9797029.jpeg",
             },
         ],
     },
@@ -105,8 +95,7 @@ export const restaurants = [
         rating: 4.6,
         description:
             "Traditional Italian restaurant serving authentic pasta, risotto, and Mediterranean dishes.",
-        image:
-            "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+        image: "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
         dishes: [
             {
                 id: 301,
@@ -114,8 +103,7 @@ export const restaurants = [
                 description:
                     "Classic Roman pasta with eggs, guanciale, Pecorino Romano, and black pepper",
                 price: 12.99,
-                image:
-                    "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+                image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
             },
             {
                 id: 302,
@@ -123,8 +111,7 @@ export const restaurants = [
                 description:
                     "Fresh mozzarella, basil, and tomato sauce on a crispy thin crust",
                 price: 11.99,
-                image:
-                    "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg",
+                image: "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg",
             },
             {
                 id: 303,
@@ -132,8 +119,7 @@ export const restaurants = [
                 description:
                     "Creamy arborio rice with wild mushrooms and Parmesan cheese",
                 price: 13.99,
-                image:
-                    "https://images.pexels.com/photos/5639411/pexels-photo-5639411.jpeg",
+                image: "https://images.pexels.com/photos/5639411/pexels-photo-5639411.jpeg",
             },
             {
                 id: 304,
@@ -141,8 +127,7 @@ export const restaurants = [
                 description:
                     "Classic Italian dessert with mascarpone, espresso, and cocoa powder",
                 price: 5.99,
-                image:
-                    "https://images.pexels.com/photos/6880219/pexels-photo-6880219.jpeg",
+                image: "https://images.pexels.com/photos/6880219/pexels-photo-6880219.jpeg",
             },
         ],
     },
@@ -154,8 +139,7 @@ export const restaurants = [
         rating: 4.4,
         description:
             "Authentic Mexican street food with fresh ingredients and bold flavors.",
-        image:
-            "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+        image: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
         dishes: [
             {
                 id: 401,
@@ -163,8 +147,7 @@ export const restaurants = [
                 description:
                     "Grilled chicken with cilantro, onion, and lime in soft corn tortillas",
                 price: 9.99,
-                image:
-                    "https://images.pexels.com/photos/4958792/pexels-photo-4958792.jpeg",
+                image: "https://images.pexels.com/photos/4958792/pexels-photo-4958792.jpeg",
             },
             {
                 id: 402,
@@ -172,8 +155,7 @@ export const restaurants = [
                 description:
                     "Filled with seasoned beef, beans, rice, cheese, and all the fixings",
                 price: 11.99,
-                image:
-                    "https://images.pexels.com/photos/5737247/pexels-photo-5737247.jpeg",
+                image: "https://images.pexels.com/photos/5737247/pexels-photo-5737247.jpeg",
             },
             {
                 id: 403,
@@ -181,8 +163,7 @@ export const restaurants = [
                 description:
                     "Crispy fried pastry sticks dusted with cinnamon sugar and served with chocolate sauce",
                 price: 4.99,
-                image:
-                    "https://images.pexels.com/photos/4567310/pexels-photo-4567310.jpeg",
+                image: "https://images.pexels.com/photos/9501468/pexels-photo-9501468.jpeg",
             },
             {
                 id: 404,
@@ -190,8 +171,7 @@ export const restaurants = [
                 description:
                     "Grilled tortilla filled with melted cheese, vegetables, and your choice of meat",
                 price: 10.99,
-                image:
-                    "https://images.pexels.com/photos/5848501/pexels-photo-5848501.jpeg",
+                image: "https://images.pexels.com/photos/5848501/pexels-photo-5848501.jpeg",
             },
         ],
     },
@@ -203,8 +183,7 @@ export const restaurants = [
         rating: 4.8,
         description:
             "Premium Japanese cuisine featuring fresh sushi, sashimi, and traditional dishes.",
-        image:
-            "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg",
+        image: "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg",
         dishes: [
             {
                 id: 501,
@@ -212,8 +191,7 @@ export const restaurants = [
                 description:
                     "Avocado, cucumber, and imitation crab rolled in rice and nori",
                 price: 8.99,
-                image:
-                    "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg",
+                image: "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg",
             },
             {
                 id: 502,
@@ -221,8 +199,7 @@ export const restaurants = [
                 description:
                     "Seared tuna with jalapeño, sriracha mayo, and avocado",
                 price: 10.99,
-                image:
-                    "https://images.pexels.com/photos/8951567/pexels-photo-8951567.jpeg",
+                image: "https://images.pexels.com/photos/8951567/pexels-photo-8951567.jpeg",
             },
             {
                 id: 503,
@@ -230,8 +207,7 @@ export const restaurants = [
                 description:
                     "Fresh sliced salmon served with wasabi, pickled ginger, and soy sauce",
                 price: 12.99,
-                image:
-                    "https://images.pexels.com/photos/3296279/pexels-photo-3296279.jpeg",
+                image: "https://images.pexels.com/photos/3296279/pexels-photo-3296279.jpeg",
             },
             {
                 id: 504,
@@ -239,8 +215,7 @@ export const restaurants = [
                 description:
                     "Lightly battered and fried shrimp served with dipping sauce",
                 price: 9.99,
-                image:
-                    "https://images.pexels.com/photos/8697537/pexels-photo-8697537.jpeg",
+                image: "https://images.pexels.com/photos/8697537/pexels-photo-8697537.jpeg",
             },
         ],
     },
@@ -252,8 +227,7 @@ export const restaurants = [
         rating: 4.3,
         description:
             "Classic American burgers, hot dogs, and comfort food with a modern twist.",
-        image:
-            "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+        image: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
         dishes: [
             {
                 id: 601,
@@ -261,8 +235,7 @@ export const restaurants = [
                 description:
                     "Juicy beef patty with melted cheddar, lettuce, tomato, and special sauce",
                 price: 10.99,
-                image:
-                    "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+                image: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
             },
             {
                 id: 602,
@@ -270,8 +243,7 @@ export const restaurants = [
                 description:
                     "Double patty with crispy bacon, Swiss cheese, and caramelized onions",
                 price: 12.99,
-                image:
-                    "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
+                image: "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
             },
             {
                 id: 603,
@@ -279,8 +251,7 @@ export const restaurants = [
                 description:
                     "Golden french fries with sea salt and your choice of seasoning",
                 price: 4.99,
-                image:
-                    "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
+                image: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
             },
             {
                 id: 604,
@@ -288,22 +259,20 @@ export const restaurants = [
                 description:
                     "Creamy vanilla, chocolate, or strawberry shake with whipped cream",
                 price: 5.99,
-                image:
-                    "https://images.pexels.com/photos/6542784/pexels-photo-6542784.jpeg",
+                image: "https://images.pexels.com/photos/6542784/pexels-photo-6542784.jpeg",
             },
         ],
     },
 ];
 
-export const orders = [
+export const initialOrders = [
     {
         id: 1,
         restaurant: "Marlow Kitchen",
         status: "On the way",
         eta: "12 min",
         total: "$24.80",
-        image:
-            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
+        image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
     },
     {
         id: 2,
@@ -311,7 +280,6 @@ export const orders = [
         status: "Delivered",
         eta: "Completed",
         total: "$18.20",
-        image:
-            "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+        image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
     },
 ];
