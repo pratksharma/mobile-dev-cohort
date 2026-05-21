@@ -264,18 +264,3 @@ export const restaurants = [
         ],
     },
 ];
-
-export const initialOrders = [
-    {
-        id: 1,
-        restaurant: "Marlow Kitchen",
-        total: "₹180",
-        image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
-    },
-    {
-        id: 2,
-        restaurant: "Seoul Bite",
-        total: "₹150",
-        image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
-    },
-];

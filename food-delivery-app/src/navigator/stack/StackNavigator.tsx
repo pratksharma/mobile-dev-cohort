@@ -1,5 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import * as Linking from "expo-linking";
 import OnboardingScreen from "../../screens/OnboardingScreen";
 import RestaurantDetailScreen from "../../screens/RestaurantDetailScreen";
 import CartScreen from "../../screens/Cart";
@@ -8,6 +9,25 @@ import OrderConfirmationScreen from "../../screens/OrderConfirmationScreen";
 import TabsNavigator from "../tabs/TabsNavigator";
 
 const Stack = createNativeStackNavigator();
+
+const linking = {
+    prefixes: [Linking.createURL("/"), "foodapp://"],
+    config: {
+        screens: {
+            Onboarding: "onboarding",
+            MainTabs: "tabs",
+            RestaurantDetailScreen: {
+                path: "restaurant/:restaurantId",
+                parse: {
+                    restaurantId: Number,
+                },
+            },
+            Cart: "cart",
+            OrderConfirmation: "order-confirmation",
+            Login: "login",
+        },
+    },
+};
 
 function MyStack() {
     return (
@@ -34,7 +54,7 @@ function MyStack() {
 
 export default function StackNavigator() {
     return (
-        <NavigationContainer>
+        <NavigationContainer linking={linking}>
             <MyStack />
         </NavigationContainer>
     );

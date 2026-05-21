@@ -5,7 +5,6 @@ import React, {
     useState,
     type ReactNode,
 } from "react";
-import { initialOrders } from "../constants/data";
 
 export type Order = {
     id: number;
@@ -36,7 +35,7 @@ type OrdersContextValue = {
 const OrdersContext = createContext<OrdersContextValue | undefined>(undefined);
 
 export function OrdersProvider({ children }: { children: ReactNode }) {
-    const [orders, setOrders] = useState<Order[]>(initialOrders as Order[]);
+    const [orders, setOrders] = useState<Order[]>([]);
 
     const addOrder = (restaurantName: string, dish: Dish) => {
         setOrders((currentOrders) => {

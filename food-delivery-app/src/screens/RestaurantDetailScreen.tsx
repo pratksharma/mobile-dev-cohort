@@ -11,14 +11,21 @@ import {
 import { useOrders } from "../context/OrdersContext";
 import Icon from "react-native-remix-icon";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { restaurants } from "../constants/data";
 
 const RestaurantDetailScreen = () => {
     const navigation = useNavigation();
     const route = useRoute();
     const { orders, addOrder } = useOrders();
 
-    // @ts-ignore
-    const { restaurant } = route.params || {};
+    const params = (route.params || {}) as {
+        restaurant?: (typeof restaurants)[number];
+        restaurantId?: number;
+    };
+
+    const restaurant =
+        params.restaurant ??
+        restaurants.find((entry) => entry.id === params.restaurantId);
 
     if (!restaurant) {
         return (
