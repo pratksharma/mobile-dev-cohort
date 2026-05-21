@@ -4,12 +4,12 @@ Preview images and a short demo video are included in the project assets: ../ass
 
 <!-- Embedded preview video -->
 
-[<video src="../assets/preview/preview.mp4" controls width="360"></video>](https://github.com/user-attachments/assets/af978115-f5ff-4fae-a9ee-075d42b9c2ba)
+[<video src="./assets/preview/preview.mp4" controls width="360"></video>](https://github.com/user-attachments/assets/af978115-f5ff-4fae-a9ee-075d42b9c2ba)
 
 <!-- Primary screenshots -->
-<img src="../assets/preview/preview-1.jpg" width="360">
-<img src="../assets/preview/preview-2.jpg" width="360">
-<img src="../assets/preview/preview-3.jpg" width="360">
+<img src="assets/preview/preview-1.jpg" width="360">
+<img src="assets/preview/preview-2.jpg" width="360">
+<img src="assets/preview/preview-3.jpg" width="360">
 
 <!-- ![Preview 1](../assets/preview/preview-1.jpg) -->
 <!-- ![Preview 2](../assets/preview/preview-2.jpg) -->
