@@ -8,3 +8,4 @@ This repository is a shared index for the mobile development cohort. Each cohort
 | -------------------------------------- | ------------------------------------------------------------------- |
 | [sign-in-screen](sign-in-screen)       | Expo app for a sign-in screen project.                              |
 | [notes-app-screens](notes-app-screens) | Expo app showcasing notes list, add note, and note details screens. |
+| [food-delivery-app](food-delivery-app) | Expo app for a food delivery experience.                            |
