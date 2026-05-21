@@ -4,7 +4,7 @@ React Native (Expo + TypeScript) project for a notes app UI flow.
 
 ## Preview Video
 
-<video src="./assets/preview/preview.mp4" controls width="360"></video>
+[<video src="./assets/preview/preview.mp4" controls width="360"></video>](https://github.com/user-attachments/assets/43c22450-5823-4aec-9935-73aa9e0e7a6f)
 
 If your Markdown viewer does not render embedded video, open it directly:
 [Watch preview video](./assets/preview/preview.mp4)
