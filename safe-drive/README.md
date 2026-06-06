@@ -15,8 +15,9 @@ Sessions are stored on-device with AsyncStorage, so history remains available af
 
 The visual previews live in the assets folder.
 
-[<video src="./assets/preview/preview.mp4" controls width="360"></video>](https://github.com/user-attachments/assets/f0c73581-bfb5-4abe-a5f7-68398dd8ea0f)
 Preview video: [assets/preview/preview.mp4](assets/preview/preview.mp4)
+
+[<video src="./assets/preview/preview.mp4" controls width="360"></video>](https://github.com/user-attachments/assets/f0c73581-bfb5-4abe-a5f7-68398dd8ea0f)
 
 <img src="assets/preview/preview-1.jpg" width="360">
 <img src="assets/preview/preview-2.jpg" width="360">
