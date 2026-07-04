@@ -8,11 +8,13 @@ A simple habit tracker built with **Expo (SDK 56)** and **expo-router**. Create 
 
 > ▶️ [Watch the demo video](assets/preview/preview.mp4)
 
-  <img src="assets/preview/preview-1.jpg" width="33%" />
+<p>
+<img src="assets/preview/preview-1.jpg" width="33%" />
   <img src="assets/preview/preview-2.jpg" width="33%" />
   <img src="assets/preview/preview-3.jpg" width="33%" />
   <img src="assets/preview/preview-4.jpg" width="33%" />
   <img src="assets/preview/preview-5.jpg" width="33%" />
+  </p>
 
 ## Features
 
