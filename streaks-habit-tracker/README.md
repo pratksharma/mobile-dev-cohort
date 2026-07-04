@@ -4,7 +4,7 @@ A simple habit tracker built with **Expo (SDK 56)** and **expo-router**. Create 
 
 ## Preview
 
-<video src="assets/preview/preview.mp4" width="320" controls></video>
+[<video src="assets/preview/preview.mp4" width="320" controls></video>](https://github.com/user-attachments/assets/3091c04a-b059-4747-bafd-ec3e37c29825)
 
 > ▶️ [Watch the demo video](assets/preview/preview.mp4)
 
